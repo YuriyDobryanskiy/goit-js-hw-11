@@ -92,7 +92,7 @@ function showError(message) {
     message: message,
     timeout: 50000,
     backgroundColor: '#EF4040',
-    iconUrl: './img/octagon.svg',
+    //iconUrl: './img/octagon.svg',
     messageColor: '#FAFAFB',
   });
 }
