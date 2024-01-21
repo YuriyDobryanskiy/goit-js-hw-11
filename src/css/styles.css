@@ -6,3 +6,6 @@
 */
 @import url("./reset.css");
 @import url("./base.css");
+@import url("./input.css");
+@import url("./loader.css");
+@import url("./gallery.css");

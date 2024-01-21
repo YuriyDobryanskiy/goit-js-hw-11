@@ -10,14 +10,16 @@
 </head>
 
 <body>
-    <div class="container">
-        <ul>
-            <li><a href="./1-timer.html">Task 1</a></li>
-            <li><a href="./2-snackbar.html">Task 2</a></li>
-            <li></li>
-        </ul>
+    <div class="search-form">
+        <form id="imageSearchForm">
+            <input type="text" id="searchInput" placeholder="Search images..." required>
+            <button type="submit">Search</button>
+        </form>
     </div>
-	<script type="module" src="./js/main.js"></script>
+    <span class="loader"></span>
+    <ul id="gallery" class="gallery"></ul>
+
+    <script type="module" src="./js/main.js"></script>
 </body>
 
 </html>
