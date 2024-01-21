@@ -66,6 +66,7 @@ form.addEventListener('submit', function (e) {
     })
     .finally(() => {
       loader.style.display = 'none';
+      searchInput.value = '';
     });
 });
 //Form
