@@ -90,7 +90,7 @@ function showError(message) {
   iziToast.error({
     theme: 'dark',
     message: message,
-    timeout: 5000,
+    timeout: 50000,
     backgroundColor: '#EF4040',
     iconUrl: '../img/octagon.svg',
     messageColor: '#FAFAFB',
