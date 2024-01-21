@@ -8,18 +8,22 @@
     <title>HW-11</title>
     
   <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/goit-js-hw-11/assets/index-77da101c.css">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-5b791d57.js">
+  <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-cf6910df.css">
+  <link rel="stylesheet" href="/goit-js-hw-11/assets/index-f52ce3cb.css">
 </head>
 
 <body>
-    <div class="container">
-        <ul>
-            <li><a href="./1-timer.html">Task 1</a></li>
-            <li><a href="./2-snackbar.html">Task 2</a></li>
-            <li></li>
-        </ul>
+    <div class="search-form">
+        <form id="imageSearchForm">
+            <input type="text" id="searchInput" placeholder="Search images..." required>
+            <button type="submit">Search</button>
+        </form>
     </div>
-	
+    <span class="loader"></span>
+    <ul id="gallery" class="gallery"></ul>
+
+    
 </body>
 
 </html>
