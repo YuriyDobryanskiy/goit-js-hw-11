@@ -2,6 +2,7 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
+import imgUrl from './img/octagon.svg';
 
 const API_KEY = '41936160-9a65f6e7e8f481bcadff71523';
 const BASE_URL = 'https://pixabay.com/api';
@@ -92,7 +93,7 @@ function showError(message) {
     message: message,
     timeout: 5000,
     backgroundColor: '#EF4040',
-    //iconUrl: './img/octagon.svg',
+    iconUrl: imgUrl,
     messageColor: '#FAFAFB',
   });
 }
